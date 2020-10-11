@@ -10,10 +10,11 @@ import { SaisieClientComponent } from './saisie-client/saisie-client.component';
 import { RecapComponent } from './recap/recap.component';
 import { ProductService } from './product.service';
 import { ProductComponent } from './product/product.component';
+import { ProductFiltreComponent } from './product-filtre/product-filtre.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, ReactiveFormsModule, HttpClientModule ],
-  declarations: [ AppComponent, HelloComponent, FooterComponent, TetiereComponent, SaisieClientComponent, RecapComponent, ProductComponent ],
+  declarations: [ AppComponent, HelloComponent, FooterComponent, TetiereComponent, SaisieClientComponent, RecapComponent, ProductComponent, ProductFiltreComponent ],
   bootstrap:    [ AppComponent ],
   providers: [ProductService]
 })
